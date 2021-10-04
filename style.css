@@ -1,0 +1,470 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: #1c1c1c;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Montserrat", sans-serif;
+}
+
+#name,
+#heading,
+#msg,
+.color {
+    cursor: default;
+    opacity: 0.789;
+}
+
+#name {
+    font-size: 3.5vmin;
+    font-weight: 800;
+    padding: 4vmin;
+    cursor: pointer;
+}
+
+#heading {
+    font-size: 8.7vmin;
+    font-weight: 900;
+    padding-top: 0.5vmin;
+    padding-bottom: 2vmin;
+    text-align: center;
+}
+
+#msg {
+    font-size: 4.5vmin;
+    font-weight: lighter;
+    padding-top: 0.5vmin;
+    padding-bottom: 2vmin;
+    text-align: center;
+}
+
+.color {
+    font-size: 3.5vmin;
+    padding: 2vmin;
+    padding-left: 4vmin;
+    letter-spacing: 0.2vmin;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-items: center;
+}
+
+.box {
+    height: 33vmin;
+    width: 21vmin;
+    cursor: pointer;
+    border-radius: 2vmin;
+    margin: 3vmin;
+    margin-bottom: 5vmin;
+    transition: all 0.3s;
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
+
+#box-1,
+#box-7,
+#box-13,
+#box-19,
+#box-25,
+#box-31,
+#box-37,
+#box-43,
+#box-49,
+#box-55 {
+    margin-left: 8vmin;
+}
+
+#box-6,
+#box-12,
+#box-18,
+#box-24,
+#box-30,
+#box-36,
+#box-42,
+#box-48,
+#box-54,
+#box-60 {
+    margin-right: 8vmin;
+}
+
+#box-1 {
+    background: #ff6263;
+}
+
+#box-2 {
+    background: #de4839;
+}
+
+#box-3 {
+    background: #bf3325;
+}
+
+#box-4 {
+    background: #e21717;
+}
+
+#box-5 {
+    background: #bf3312;
+}
+
+#box-6 {
+    background: #d82e2f;
+}
+
+#box-7 {
+    background: #eb4d4b;
+}
+
+#box-8 {
+    background: #ef5354;
+}
+
+#box-9 {
+    background: #b4161b;
+}
+
+#box-10 {
+    background: #e6425e;
+}
+
+#box-11 {
+    background: #e83a59;
+}
+
+#box-12 {
+    background: #b9345a;
+}
+
+#box-13 {
+    background: #1b98f5;
+}
+
+#box-14 {
+    background: #23c4ed;
+}
+
+#box-15 {
+    background: #383cc1;
+}
+
+#box-16 {
+    background: #12b0e8;
+}
+
+#box-17 {
+    background: #51e1ed;
+}
+
+#box-18 {
+    background: #207398;
+}
+
+#box-19 {
+    background: #46b2e0;
+}
+
+#box-20 {
+    background: #3944f7;
+}
+
+#box-21 {
+    background: #2827cc;
+}
+
+#box-22 {
+    background: #120e43;
+}
+
+#box-23 {
+    background: #5da3fa;
+}
+
+#box-24 {
+    background: #03203c;
+}
+
+#box-25 {
+    background: #1faa59;
+}
+
+#box-26 {
+    background: #38cc77;
+}
+
+#box-27 {
+    background: #02b290;
+}
+
+#box-28 {
+    background: #50dbb4;
+}
+
+#box-29 {
+    background: #3dbe29;
+}
+
+#box-30 {
+    background: #4dd637;
+}
+
+#box-31 {
+    background: #1c8d73;
+}
+
+#box-32 {
+    background: #66ad47;
+}
+
+#box-33 {
+    background: #6ac47e;
+}
+
+#box-34 {
+    background: #6ec72d;
+}
+
+#box-35 {
+    background: #22cb5c;
+}
+
+#box-36 {
+    background: #00d84a;
+}
+
+#box-37 {
+    background: #e8bd0d;
+}
+
+#box-38 {
+    background: #edbf69;
+}
+
+#box-39 {
+    background: #f4be2c;
+}
+
+#box-40 {
+    background: #edc126;
+}
+
+#box-41 {
+    background: #e5d68a;
+}
+
+#box-42 {
+    background: #ddd101;
+}
+
+#box-43 {
+    background: #d9d55b;
+}
+
+#box-44 {
+    background: #f7cd2e;
+}
+
+#box-45 {
+    background: #af9d5a;
+}
+
+#box-46 {
+    background: #c7c11a;
+}
+
+#box-47 {
+    background: #f4ce6a;
+}
+
+#box-48 {
+    background: #a77b06;
+}
+
+#box-49 {
+    background: #8d3daf;
+}
+
+#box-50 {
+    background: #e07c24;
+}
+
+#box-51 {
+    background: #758283;
+}
+
+#box-52 {
+    background: #e03b8b;
+}
+
+#box-53 {
+    background: #ff6666;
+}
+
+#box-54 {
+    background: #242b2e;
+}
+
+#box-55 {
+    background: #03c6c7;
+}
+
+#box-56 {
+    background: #5a20cb;
+}
+
+#box-57 {
+    background: #6a1b4d;
+}
+
+#box-58 {
+    background: #cad5e2;
+}
+
+#box-59 {
+    background: #35bdd0;
+}
+
+#box-60 {
+    background: #0d0d0d;
+}
+
+@media only screen and (max-width: 1240px) {
+    .container {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    #box-1,
+    #box-7,
+    #box-13,
+    #box-19,
+    #box-25,
+    #box-31,
+    #box-37,
+    #box-43,
+    #box-49,
+    #box-55 {
+        margin-left: 3vmin;
+        margin-right: 3vmin;
+    }
+
+    #box-6,
+    #box-12,
+    #box-18,
+    #box-24,
+    #box-30,
+    #box-36,
+    #box-42,
+    #box-48,
+    #box-54,
+    #box-60 {
+        margin-left: 3vmin;
+        margin-right: 3vmin;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    .container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    #box-1,
+    #box-7,
+    #box-13,
+    #box-19,
+    #box-25,
+    #box-31,
+    #box-37,
+    #box-43,
+    #box-49,
+    #box-55 {
+        margin-left: 3vmin;
+        margin-right: 3vmin;
+    }
+
+    #box-6,
+    #box-12,
+    #box-18,
+    #box-24,
+    #box-30,
+    #box-36,
+    #box-42,
+    #box-48,
+    #box-54,
+    #box-60 {
+        margin-left: 3vmin;
+        margin-right: 3vmin;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #box-1,
+    #box-7,
+    #box-13,
+    #box-19,
+    #box-25,
+    #box-31,
+    #box-37,
+    #box-43,
+    #box-49,
+    #box-55 {
+        margin-left: 3vmin;
+        margin-right: 3vmin;
+    }
+
+    #box-6,
+    #box-12,
+    #box-18,
+    #box-24,
+    #box-30,
+    #box-36,
+    #box-42,
+    #box-48,
+    #box-54,
+    #box-60 {
+        margin-left: 3vmin;
+        margin-right: 3vmin;
+    }
+}
+
+@media only screen and (max-width: 595px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #box-1,
+    #box-7,
+    #box-13,
+    #box-19,
+    #box-25,
+    #box-31,
+    #box-37,
+    #box-43,
+    #box-49,
+    #box-55 {
+        margin-left: 3vmin;
+        margin-right: 3vmin;
+    }
+
+    #box-6,
+    #box-12,
+    #box-18,
+    #box-24,
+    #box-30,
+    #box-36,
+    #box-42,
+    #box-48,
+    #box-54,
+    #box-60 {
+        margin-left: 3vmin;
+        margin-right: 3vmin;
+    }
+}
