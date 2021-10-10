@@ -6,7 +6,7 @@
 <p>Release version (Website):</p>
 
 <blockquote>
-	<a href="https://yashodharpatel.github.io/UIColorPicker/" target="blank">yashodharpatel.github.io/UIColorPicker/</a>
+	<a href="https://yashodharpatel.github.io/UIColorPicker/" target="blank">https://yashodharpatel.github.io/UIColorPicker</a>
 </blockquote>
 <br>
 
